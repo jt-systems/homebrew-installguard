@@ -17,22 +17,22 @@ class Installguard < Formula
   on_macos do
     on_arm do
       url "https://github.com/jt-systems/installguard/releases/download/v#{version}/installguard-aarch64-apple-darwin"
-      sha256 "0000000000000000000000000000000000000000000000000000000000000000"
+      sha256 "2198f19727a6a75cfb37ade4375587b11baa12f08a3f5038181ad927b47e3342"
     end
     on_intel do
       url "https://github.com/jt-systems/installguard/releases/download/v#{version}/installguard-x86_64-apple-darwin"
-      sha256 "0000000000000000000000000000000000000000000000000000000000000000"
+      sha256 "9ea426bfdaf29db4c9d2b1c824cbb6bbe062c51e945c205b418be5529130e90a"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/jt-systems/installguard/releases/download/v#{version}/installguard-aarch64-unknown-linux-musl"
-      sha256 "0000000000000000000000000000000000000000000000000000000000000000"
+      sha256 "cb2f3852bcc8409b2198edb5d0e0daba1f14c555e71421b119fa6a3d8f52b49f"
     end
     on_intel do
       url "https://github.com/jt-systems/installguard/releases/download/v#{version}/installguard-x86_64-unknown-linux-musl"
-      sha256 "0000000000000000000000000000000000000000000000000000000000000000"
+      sha256 "b95072736db17c1affcccb653650097480c3f888037eb522184785baf1f0ebb1"
     end
   end
 
