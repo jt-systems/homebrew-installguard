@@ -11,7 +11,7 @@
 class Installguard < Formula
   desc "Dependency freshness and install-script governance for npm/pnpm/yarn"
   homepage "https://github.com/jt-systems/installguard"
-  version "0.1.5"
+  version "0.1.6"
   license "Apache-2.0"
 
   on_macos do
