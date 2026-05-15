@@ -11,28 +11,28 @@
 class Installguard < Formula
   desc "Dependency freshness and install-script governance for npm/pnpm/yarn"
   homepage "https://github.com/jt-systems/installguard"
-  version "0.3.2"
+  version "0.3.3"
   license "Apache-2.0"
 
   on_macos do
     on_arm do
       url "https://github.com/jt-systems/installguard/releases/download/v#{version}/installguard-aarch64-apple-darwin"
-      sha256 "e249678ef8fbee3f8a8cb3fc5ba6e26a77e77f7e128e8c5949a4a95c415684cb"
+      sha256 "574e1e97896671783d76f100212977ebbfe708cb2901243861be4a4b55642c35"
     end
     on_intel do
       url "https://github.com/jt-systems/installguard/releases/download/v#{version}/installguard-x86_64-apple-darwin"
-      sha256 "80a45c3e57b2283f3cd7460297ea939d8851487854c830d3b953b71b784215a5"
+      sha256 "3174e61a2d40bb9ec03fe2be331dde9b9a257c3961b9190a758cc720156ccf38"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/jt-systems/installguard/releases/download/v#{version}/installguard-aarch64-unknown-linux-musl"
-      sha256 "e5e5ae7ab9fa90b67cdb414a936a9f55e6ebbbb3ca79bf6b7fd72251e74e3b84"
+      sha256 "e68776d173c1834ca8cdcd0b0b57aeea842289ac226210eba9b8cb7b7bf7fcde"
     end
     on_intel do
       url "https://github.com/jt-systems/installguard/releases/download/v#{version}/installguard-x86_64-unknown-linux-musl"
-      sha256 "89465fa8922083bb5c8e7abacba11d34d47f33e1cfab7225804e05d358782235"
+      sha256 "a21f846b1f45237ea81d82615d461208b55462bf5e1cc477dc3a331d105ba660"
     end
   end
 
